@@ -7,13 +7,6 @@ import time
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
-
-WEAVIATE_CLUSTER_URL = os.getenv('WEAVIATE_CLUSTER_URL')
-WEAVIATE_API_KEY = os.getenv('WEAVIATE_API_KEY')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-
 def get_article_text_objects(file_path):
     
     with open(file_path, mode='r') as file:

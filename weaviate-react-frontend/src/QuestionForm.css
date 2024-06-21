@@ -1,0 +1,120 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .question-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .question-form-container h2 {
+    margin: 0px
+  }
+  
+  .question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .question-input {
+    width: 100%; /* Consistent width */
+    max-width: 400px; /* Maximum width */
+    height: 150px; /* Consistent height */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px; /* Larger font for user input */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  }
+  
+  label, .articles, .error, .powered-by {
+    font-size: 14px; /* Smaller font for other text */
+    margin-bottom: 10px;
+  }
+
+  .result {
+    font-size: 20px
+  }
+  
+  .submit-button-container {
+    display: flex;
+    justify-content: center; /* Center the submit button */
+  }
+  
+  .submit-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .result {
+    margin-top: 20px;
+    width: 75%;
+    text-align: center; /* Centering the text */
+  }
+  
+  .result h2 {
+    margin-top: 10px; /* Reduce margin to decrease space */
+  }
+  
+  .articles {
+    margin-top: 20px;
+  }
+  
+  .articles div {
+    margin-bottom: 10px;
+  }
+  
+  .articles a {
+    color: #00fff2; /* Stand-out color for hyperlinks */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .articles a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
+  .top-logo {
+    width: 500px; /* Width for the top logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Reduce top margin to decrease space above logo */
+    margin-bottom: 10px; /* Reduce bottom margin to decrease space below logo */
+  }
+  
+  .bottom-logo {
+    width: 100px; /* Width for the bottom logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 100px;
+  }
+  
+  .powered-by {
+    margin-top: 0px;
+  }
+  

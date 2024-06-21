@@ -1,0 +1,5 @@
+# Ignore virtual environment directories
+weaviate_env/
+
+# Ignore environment variable files
+.env
